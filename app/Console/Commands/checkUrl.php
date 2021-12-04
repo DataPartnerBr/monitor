@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Monitor;
 use Illuminate\Console\Command;
-use App\Http\Controllers\Api\V1\MonitorController;
+use App\Http\Controllers\API\V1\MonitorController;
 
 class checkUrl extends Command
 {

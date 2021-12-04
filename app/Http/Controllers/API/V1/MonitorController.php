@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\API\V1;;
+namespace App\Http\Controllers\API\V1;
 
 use App\Helpers\LogActivity;
-use App\Models\monitor;
+use App\Models\Monitor;
 use Illuminate\Http\Request;
 use App\Http\Requests\Monitor\MonitorRequest;
 use Illuminate\Support\Facades\Http;

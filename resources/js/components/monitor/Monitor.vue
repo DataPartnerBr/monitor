@@ -217,10 +217,12 @@
                         console.log('updateMonitor OK --->' + id);
                         this.$loading(false);
                         this.$Progress.finish();
+                        this.loadUrls();
                         Toast.fire({
                             icon: 'success',
                             title: 'Pronto!'
                         });
+                        
                     })
                     // eslint-disable-next-line
                     .catch(errors => {
